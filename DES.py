@@ -7,7 +7,7 @@
 #The encrypted text is printed first
 #Followed by the decrypted text
 
-# Please Note to run this program you must install Crypto.Cipher Library
+# Please note to run this program you must install Crypto.Cipher Library
 #-------------------------------------------------------------------------------
 from Crypto.Cipher import DES
 storeDES = DES.new('12345678', DES.MODE_ECB)
